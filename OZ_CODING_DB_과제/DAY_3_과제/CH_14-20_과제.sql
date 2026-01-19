@@ -28,22 +28,22 @@ SELECT name, salary FROM employees
 WHERE position = 'Frontend'
 	AND salary <= 90000;
 
--- PM 직책을 가진 모든 직원의 연봉을 10% 인상한 후 그 결과를 확인하세요. 
+-- 'PM' 직책을 가진 모든 직원의 연봉을 10% 인상한 후 그 결과를 확인하세요. 
 UPDATE employees
 SET salary = salary * 1.10
 WHERE position = 'PM'
-	AND id > 0; -- Safe Update 모드 대응 UPDATE,SET,WHERE을 적었지만 실행돼지 않아 구글링하여 찾은 방법
-    
+
+-- 인상 결과 확인
 SELECT name, position, salary
 FROM employees
 WHERE position = 'PM';
 
--- 모든 Backend' 직책을 가진 직원의 연봉을 5% 인상하세요.
+-- 모든 'Backend' 직책을 가진 직원의 연봉을 5% 인상하세요.
 UPDATE employees
 SET salary = salary * 1.05
 WHERE position = 'Backend'
-	AND id > 0;
-    
+
+-- 인상 결과 확인
 SELECT name, position, salary
 FROM employees
 WHERE position = 'Backend';
