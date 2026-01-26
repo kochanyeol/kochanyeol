@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>1일차 프로필 페이지</title>
+    </head>
+    <body>
+        <h1>
+            <strong>
+                    고찬열 개인
+                    <mark>프로필</mark>
+            </strong>
+        </h1>
+        <img
+        src="뚱냥이.jpg"
+        alt="세상에서 제일 폭신한 고양이"
+        width="200"
+        >
+        <hr>
+        <div id="info">
+            <p>
+                <h2>
+                    목차
+                </h2>
+                <ol>
+                    <li>개인정보</li>
+                    <li>취미</li>
+                    <li>특징</li>
+                </ol>
+            </p>
+        </div>
+        <hr>
+        <div id="profile">
+            <p>
+                <h3>
+                    <span
+                    style="color: goldenrod;"
+                    title="고찬열 개인정보">
+                    개인정보
+                    </span>
+                </h3>
+                1998년에 태어났으며
+                <q>
+                    <strong>
+                        인천
+                    </strong>
+                </q>
+                에서 살고있습니다. <br>
+                오즈코딩스쿨에서 많은것을 배우고 있습니다. <br>
+            </p>
+        </div>
+        <hr>
+        <div id="hobby">
+            <p>
+                <h3>
+                    <span
+                    style="color: goldenrod;"
+                    title="고찬열 취미">
+                    취미
+                    </span>
+                </h3>
+                취미는
+                <q>
+                    <strong>
+                        잠자는 것
+                    </strong>
+                </q>을 매우 좋아합니다. <br>
+                또한
+                <q>
+                    <strong>
+                        만화
+                    </strong>
+                </q>보는 것도 좋아합니다. <br>
+            </p>
+        </div>
+        <hr>
+        <div>
+            <p>
+                <h3>
+                    <span
+                    style="color: goldenrod;"
+                    title="고찬열 특징">
+                    특징
+                    </span>
+                </h3>
+                특징은 밝은 것 보다 어두운 것을 대체로 좋아합니다. <br>
+                야외활동보다는 실내활동을 굉장히 선호합니다. <br>
+                고양이를 몹시 좋아합니다. <br>
+            </p>
+        </div>
+        <hr>
+        <span>&copy; 고찬열</span>
+    </body>
+</html>
