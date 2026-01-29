@@ -15,7 +15,7 @@ document.getElementById("signupForm").addEventListener("submit", function (e) {
 
   const pwRegex =
     /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,30}$/;
-
+// 새로운 비교연산자 표기법 이번기회에 배웠습니다.
   if (!userId || !password || !passwordCheck || !name || !gender || !phone || !email) {
     alert("모든 항목을 입력해주세요.");
     return;
@@ -39,6 +39,7 @@ document.getElementById("signupForm").addEventListener("submit", function (e) {
     `전화번호: ${phone}\n` +
     `이메일: ${email}`
   );
-
+// 다시 원래 페이지로 돌아기게 만들기, 참고 WINDOW는 내장되어있기에 생략가능
   window.location.href = "admin.html";
 });
+
