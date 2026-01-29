@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신규 등록 상품</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <div class="header">
+        <h1>신규 등록 상품</h1>
+        <div class="header-buttons">
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌓 다크모드</button>
+            <button class="auth-button" id="authButton" onclick="location.href='signup.html'">회원가입</button>
+            <button class="auth-button" id="loginButton" onclick="showLogin()" style="display: none;">로그인</button>
+            <button class="auth-button" id="logoutButton" onclick="logout()" style="display: none;">로그아웃</button>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="dropdown">
+            <button class="dropdown-button" onclick="toggleDropdown()">카테고리</button>
+            <div class="dropdown-content" id="categoryDropdown">
+                <div class="dropdown-item" onclick="selectCategory('상의')">상의</div>
+                <div class="dropdown-item" onclick="selectCategory('하의')">하의</div>
+                <div class="dropdown-item" onclick="selectCategory('신발')">신발</div>
+                <div class="dropdown-item" onclick="selectCategory('패션잡화')">패션잡화</div>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="제품명을 입력해주세요">
+            <button class="search-button">조회</button>
+        </div>
+
+        <select class="gender-select">
+            <option value="">성별 선택</option>
+            <option value="male">남성</option>
+            <option value="female">여성</option>
+            <option value="unisex">공용</option>
+        </select>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>카테고리</th>
+                <th>브랜드</th>
+                <th>상품명</th>
+                <th>가격</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>상의</td>
+                <td>Supreme</td>
+                <td>슈프림 박스로고 후디</td>
+                <td>390,000</td>
+            </tr>
+            <tr>
+                <td>하의</td>
+                <td>DIESEL</td>
+                <td>디젤 트랙 팬츠</td>
+                <td>188,000</td>
+            </tr>
+            <tr>
+                <td>신발</td>
+                <td>Nike</td>
+                <td>에어포스 1</td>
+                <td>137,000</td>
+            </tr>
+            <tr>
+                <td>패션잡화</td>
+                <td>Music&Goods</td>
+                <td>뱅뱅이 키링</td>
+                <td>29,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="pagination">
+        <button onclick="changePage('prev')">Previous</button>
+        <button class="active" onclick="changePage(1)">1</button>
+        <button onclick="changePage(2)">2</button>
+        <button onclick="changePage(3)">3</button>
+        <button onclick="changePage('next')">Next</button>
+    </div>
+
+    <!-- 로그인 모달 -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>로그인</h2>
+                <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            </div>
+            <form onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="login-id">아이디</label>
+                    <input type="text" id="login-id" placeholder="아이디를 입력해주세요" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">비밀번호</label>
+                    <input type="password" id="login-password" placeholder="비밀번호를 입력해주세요" required>
+                </div>
+                <button type="submit" class="submit-button">로그인</button>
+            </form>
+            <div class="switch-form">
+                계정이 없으신가요? <a href="signup.html">회원가입</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
