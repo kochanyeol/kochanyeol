@@ -1,5 +1,5 @@
 from flask import request, jsonify, Blueprint
-from .models import SessionLocal, Todo
+from . import SessionLocal, Todo
 
 todo_bp = Blueprint('todo', __name__)
 
@@ -61,4 +61,5 @@ def delete_todo(todo_id):
     db.delete(todo)
     db.commit()
     db.close()
+
     return jsonify({'deleted': todo_id})
