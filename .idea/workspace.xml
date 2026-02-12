@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제\DAY_1_과제" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770862323253</updated>
-      <workItem from="1770862324256" duration="13240000" />
+      <workItem from="1770862324256" duration="14757000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -169,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770878293791</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1770878964782</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770878964782</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1770879084797</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770879084797</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
