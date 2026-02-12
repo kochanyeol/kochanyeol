@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="난이도 하" />
+    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="FAST API LEVEL-Eazy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/test_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/test_simple.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770862323253</updated>
-      <workItem from="1770862324256" duration="15108000" />
+      <workItem from="1770862324256" duration="18861000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -195,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770880528373</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="FAST API LEVEL-Eazy">
+      <option name="closed" value="true" />
+      <created>1770880940898</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770880940898</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +215,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="난이도 하" />
-    <option name="LAST_COMMIT_MESSAGE" value="난이도 하" />
+    <MESSAGE value="FAST API LEVEL-Eazy" />
+    <option name="LAST_COMMIT_MESSAGE" value="FAST API LEVEL-Eazy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PROJECT$main.coverage" NAME="main 커버리지 결과" MODIFIED="1770869550865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
