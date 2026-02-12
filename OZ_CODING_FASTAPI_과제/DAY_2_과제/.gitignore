@@ -1,2 +1,13 @@
-.idea/
 __pycache__/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+.Python
+ruff_cache/
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+.DS_Store

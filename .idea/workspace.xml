@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/test_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/test_simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770862323253</updated>
-      <workItem from="1770862324256" duration="11327000" />
+      <workItem from="1770862324256" duration="11646000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -137,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770876208327</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1770876937254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770876937254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
