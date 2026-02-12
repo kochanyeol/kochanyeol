@@ -1,4 +1,3 @@
-# 난이도 하
 def add(a: int, b: int) -> int:
     return a + b
 

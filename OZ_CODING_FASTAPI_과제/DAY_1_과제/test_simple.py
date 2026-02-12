@@ -1,4 +1,3 @@
-# 난이도 하
 from datetime import datetime, timedelta
 
 
