@@ -5,7 +5,7 @@ DELIVERY_DAYS = 2
 
 
 def _is_holiday(day: datetime) -> bool:
-    return day.weekday() >= 5
+    return day.weekday() > 5
 
 
 def get_eta(purchase_date: datetime) -> datetime:
