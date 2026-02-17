@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="update" />
+    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="update">
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PROJECT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PROJECT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +46,7 @@
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -67,7 +71,10 @@
       <option name="presentableId" value="Default" />
       <updated>1770862323253</updated>
       <workItem from="1770862324256" duration="22960000" />
-      <workItem from="1771297407943" duration="1111000" />
+      <workItem from="1771297407943" duration="2890000" />
+      <workItem from="1771300491108" duration="592000" />
+      <workItem from="1771301859729" duration="2521000" />
+      <workItem from="1771304874181" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -221,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771298341783</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update">
+      <option name="closed" value="true" />
+      <created>1771298757880</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1771298757880</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
