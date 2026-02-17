@@ -12,6 +12,7 @@ CREATE TABLE employees (
     salary DECIMAL(10, 2)
 );
 
+
 -- 직원 데이터를 employees에 추가해주세요
 INSERT INTO employees (name, position, salary)
 VALUES ('혜린', 'PM', 90000),
