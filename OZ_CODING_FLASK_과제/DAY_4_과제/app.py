@@ -4,6 +4,7 @@ import yaml
 from flask_smorest import Api
 from posts_routes import create_posts_blueprint
 
+
 app = Flask(__name__)
 
 db = yaml.load(open('db.yaml'), Loader=yaml.FullLoader)

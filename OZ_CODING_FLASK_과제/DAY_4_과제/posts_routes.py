@@ -1,7 +1,6 @@
 from flask import request, jsonify
 from flask_smorest import Blueprint, abort
 
-
 def create_posts_blueprint(mysql):
     posts_blp = Blueprint(
         "posts",
