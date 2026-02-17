@@ -33,6 +33,7 @@ CREATE TABLE sales (
     FOREIGN KEY (item_id) REFERENCES inventory(item_id)
 );
 
+
 CREATE TABLE daily_sales (
 	date DATE PRIMARY KEY,
     total_sales DECIMAL(10, 2) NOT NULL
