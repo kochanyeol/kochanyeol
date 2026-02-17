@@ -33,6 +33,5 @@ searchBtn.addEventListener("click", () => {
     const matchCategory = category ? item.category === category : true;
     return matchProduct && matchCategory;
   });
-
   renderTable(filtered);
 });

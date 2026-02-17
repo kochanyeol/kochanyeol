@@ -39,6 +39,7 @@ document.getElementById("signupForm").addEventListener("submit", function (e) {
     `전화번호: ${phone}\n` +
     `이메일: ${email}`
   );
+
 // 다시 원래 페이지로 돌아기게 만들기, 참고 WINDOW는 내장되어있기에 생략가능
   window.location.href = "admin.html";
 });
