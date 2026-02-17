@@ -2,7 +2,6 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 
 """ 1:N 모델간의 관계 설명 """
-
 Base = declarative_base()
 class User(Base):
     __tablename__ = 'users'

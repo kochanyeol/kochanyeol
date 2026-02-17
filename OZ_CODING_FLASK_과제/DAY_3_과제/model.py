@@ -7,7 +7,6 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 # create_engine이걸로 DB와 연결을 했으면 sessionmaker이걸로 DB와 작업통로를 찍어낸다.
 
 """ 모델 정의 """
-
 Base = declarative_base()
 # ORM 모델을 정의하기 위한 공통 부모 클래스(Base)를 생성하는 함수
 # 이 Base를 상속받는 클래스는 전부 DB 테이블이다.
