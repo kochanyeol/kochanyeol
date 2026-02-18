@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+</head>
+<body>
+
+    <h1>Todo App</h1>
+
+    <!-- 로그인 영역 -->
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+
+    <hr>
+
+    <!-- Todo 생성 -->
+    <h2>Create Todo</h2>
+    <input type="text" id="todoTitle" placeholder="Todo Title">
+    <button onclick="createTodo()">Create Todo</button>
+
+    <hr>
+
+    <!-- Todo 리스트 -->
+    <h2>Todo List</h2>
+    <ul id="todoList"></ul>
+
+<script>
+let accessToken = null;
+
+// 로그인
+function login() {
+    fetch('/login/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            username: document.getElementById('username').value,
+            password: document.getElementById('password').value
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.access_token) {
+            accessToken = data.access_token;
+            alert("Login Success");
+            loadTodos();
+        } else {
+            alert("Login Failed");
+        }
+    });
+}
+
+// Todo 생성
+function createTodo() {
+    fetch('/todo/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + accessToken
+        },
+        body: JSON.stringify({
+            title: document.getElementById('todoTitle').value
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        alert(data.msg);
+        loadTodos();
+    });
+}
+
+// Todo 불러오기
+function loadTodos() {
+    fetch('/todo/', {
+        headers: {
+            'Authorization': 'Bearer ' + accessToken
+        }
+    })
+    .then(res => res.json())
+    .then(data => {
+        const list = document.getElementById('todoList');
+        list.innerHTML = "";
+
+        data.forEach(todo => {
+            const li = document.createElement('li');
+
+            // 기본 텍스트
+            li.innerText = todo.title + " - Completed: " + todo.completed + " ";
+
+            // Complete / Undo 버튼
+            const completeBtn = document.createElement('button');
+            completeBtn.innerText = todo.completed ? "Undo" : "Complete";
+            completeBtn.onclick = function () {
+                fetch(`/todo/${todo.id}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': 'Bearer ' + accessToken
+                    }
+                })
+                .then(() => loadTodos());
+            };
+
+            // Delete 버튼
+            const deleteBtn = document.createElement('button');
+            deleteBtn.innerText = "Delete";
+            deleteBtn.onclick = function () {
+                fetch(`/todo/${todo.id}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': 'Bearer ' + accessToken
+                    }
+                })
+                .then(() => loadTodos());
+            };
+
+            li.appendChild(completeBtn);
+            li.appendChild(deleteBtn);
+
+            list.appendChild(li);
+        });
+    });
+}
+</script>
+
+</body>
+</html>
