@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="FLASK DAY5 TEST">
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.github/workflows/ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/test.sh" afterDir="false" />
+    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="FASTAPI DAY2 TEST">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +21,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kochanyeol"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kochanyeol/github-actions.git",
+    "accountId": "f526dd60-98e5-40b7-851c-7d3938f05ed4"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -84,23 +89,7 @@
       <workItem from="1771301859729" duration="2521000" />
       <workItem from="1771304874181" duration="10232000" />
       <workItem from="1771326691688" duration="5470000" />
-      <workItem from="1771463279006" duration="5082000" />
-    </task>
-    <task id="LOCAL-00003" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770870428887</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1770870428887</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770872508607</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1770872508607</updated>
+      <workItem from="1771463279006" duration="7188000" />
     </task>
     <task id="LOCAL-00005" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -478,15 +467,29 @@
       <option name="project" value="LOCAL" />
       <updated>1771413026627</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="introduce CI">
+      <option name="closed" value="true" />
+      <created>1771468475684</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1771468475685</updated>
+    </task>
+    <task id="LOCAL-00053" summary="FASTAPI DAY2 TEST">
+      <option name="closed" value="true" />
+      <created>1771468562135</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1771468562135</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADMIN DAY1 TEST" />
-    <MESSAGE value="CSS DAY1 TEST" />
     <MESSAGE value="CSS DAY2 TEST" />
     <MESSAGE value="DATABASE DAY1 TEST" />
     <MESSAGE value="DATABASE DAY2 TEST" />
@@ -510,7 +513,9 @@
     <MESSAGE value="FLASK DAY3 TEST" />
     <MESSAGE value="FLASK DAY4 TEST" />
     <MESSAGE value="FLASK DAY5 TEST" />
-    <option name="LAST_COMMIT_MESSAGE" value="FLASK DAY5 TEST" />
+    <MESSAGE value="introduce CI" />
+    <MESSAGE value="FASTAPI DAY2 TEST" />
+    <option name="LAST_COMMIT_MESSAGE" value="FASTAPI DAY2 TEST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
