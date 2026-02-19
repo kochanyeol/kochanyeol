@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="FASTAPI DAY2 TEST">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습3/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습6/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습6/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +72,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제\수업_내용\DAY1\실습1" />
       <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FLASK_과제\DAY_5_과제\FLASK_JWT" />
       <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제\DAY_1_과제" />
     </key>
@@ -89,47 +98,7 @@
       <workItem from="1771301859729" duration="2521000" />
       <workItem from="1771304874181" duration="10232000" />
       <workItem from="1771326691688" duration="5470000" />
-      <workItem from="1771463279006" duration="7188000" />
-    </task>
-    <task id="LOCAL-00005" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770874860474</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1770874860474</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770874892072</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1770874892072</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770875816626</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1770875816626</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770876052918</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1770876052918</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770876208327</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1770876208327</updated>
+      <workItem from="1771463279006" duration="23366000" />
     </task>
     <task id="LOCAL-00010" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -483,14 +452,53 @@
       <option name="project" value="LOCAL" />
       <updated>1771468562135</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="update">
+      <option name="closed" value="true" />
+      <created>1771471094873</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1771471094873</updated>
+    </task>
+    <task id="LOCAL-00055" summary="FASTAPI DAY2 TEST">
+      <option name="closed" value="true" />
+      <created>1771490257375</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1771490257375</updated>
+    </task>
+    <task id="LOCAL-00056" summary="FASTAPI DAY2 TEST">
+      <option name="closed" value="true" />
+      <created>1771490344902</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1771490344902</updated>
+    </task>
+    <task id="LOCAL-00057" summary="FASTAPI DAY2 TEST">
+      <option name="closed" value="true" />
+      <created>1771490422643</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1771490422643</updated>
+    </task>
+    <task id="LOCAL-00058" summary="FASTAPI DAY2 TEST">
+      <option name="closed" value="true" />
+      <created>1771490861378</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1771490861378</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CSS DAY2 TEST" />
     <MESSAGE value="DATABASE DAY1 TEST" />
     <MESSAGE value="DATABASE DAY2 TEST" />
     <MESSAGE value="DATABASE DAY3 TEST" />
@@ -514,6 +522,7 @@
     <MESSAGE value="FLASK DAY4 TEST" />
     <MESSAGE value="FLASK DAY5 TEST" />
     <MESSAGE value="introduce CI" />
+    <MESSAGE value="update" />
     <MESSAGE value="FASTAPI DAY2 TEST" />
     <option name="LAST_COMMIT_MESSAGE" value="FASTAPI DAY2 TEST" />
   </component>
