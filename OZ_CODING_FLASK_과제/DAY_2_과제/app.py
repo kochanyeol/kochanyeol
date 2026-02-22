@@ -2,7 +2,6 @@ from flask import Flask
 from flask_smorest import Api
 from api import book_blp
 
-
 app = Flask(__name__)
 
 app.config('API_TITLE') = 'Book API'

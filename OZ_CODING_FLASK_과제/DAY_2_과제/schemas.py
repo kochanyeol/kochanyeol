@@ -1,6 +1,5 @@
 from marshmallow import Schema, fields
 
-
 class BookSchema(Schema):
     # 변수명 제외 전부 Marshmallow 정의된 속성
     id = fields.Int(dump_only=True)

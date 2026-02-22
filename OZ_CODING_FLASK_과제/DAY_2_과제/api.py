@@ -2,7 +2,6 @@ from flask.views import MethodView
 from flask_smorest import Blueprint, abort
 from schemas import BookSchema
 
-
 book_blp = Blueprint('books', 'books', url_prefix='/books', description='Operations on books')
 
 books = []
