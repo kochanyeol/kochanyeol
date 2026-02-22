@@ -2,7 +2,6 @@ function toggleDarkMode() {
   document.body.classList.toggle("dark");
 }
 
-
 document.getElementById("signupForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
