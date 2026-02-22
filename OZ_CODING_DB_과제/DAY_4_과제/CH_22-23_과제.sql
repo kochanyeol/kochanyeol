@@ -1,5 +1,4 @@
 -- 요구사항 확인 전 작성
-
 USE pet;
 
 CREATE TABLE owners(
