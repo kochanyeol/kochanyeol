@@ -46,7 +46,6 @@ def create_posts_blueprint(mysql):
             mysql.connection.commit()
 
             return jsonify({"message": "success", "title":title, 'content':content}), 201
-
     # 게시글 상세 조회
     # 게시글 수정 및 삭제
     @posts_blp.route("/<int:id>", methods=["GET", "PUT", "DELETE"])
