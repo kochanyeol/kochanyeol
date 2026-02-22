@@ -1,17 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="FASTAPI DAY2 TEST">
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습3/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습5/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습6/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습6/temp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/README.md" afterDir="false" />
+    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="FLASK DAY4 TEST">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ruff.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.idea/PROJECT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PROJECT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PROJECT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_CSS_과제/DAY_1_과제/CH_1-10_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_CSS_과제/DAY_1_과제/CH_1-10_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_CSS_과제/DAY_2_과제/CH_11-17_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_CSS_과제/DAY_2_과제/CH_11-17_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_1_과제/CH_1-6_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_1_과제/CH_1-6_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_1_과제/CH_1-6_과제.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_1_과제/CH_1-6_과제.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_2_과제/CH_7-13_과제.sql" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_2_과제/CH_7-13_과제.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_2_과제/CH_7_13_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_2_과제/CH_7_13_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_3_과제/CH_14-20_과제.sql" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_3_과제/CH_14-20_과제.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_4_과제/CH_22-23_과제.sql" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_DB_과제/DAY_4_과제/CH_22-23_과제.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_1_과제/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/test_temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제/test_temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/app/apis/v1/meeting_router.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/app/apis/v1/meeting_router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/app/dtos/create_meeting_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/app/dtos/create_meeting_response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/app/dtos/frozen_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/app/dtos/frozen_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습5/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습6/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습6/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY1/실습6/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습5/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/db.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/db.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/posts_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/posts_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_4_과제/templates/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/blocklist.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/blocklist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/jwt_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/jwt_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/routes/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/routes/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/templates/protected.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_JWT/templates/protected.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/FLASK_LOGIN/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT/templates/add_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT/templates/add_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT/templates/edit_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT/templates/edit_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT2/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT2/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT2/user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT2/user_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT2/user_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT2/user_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/routes/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/routes/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/routes/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/routes/todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_HTML_과제/DAY_1_과제/CH_1-10_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_HTML_과제/DAY_1_과제/CH_1-10_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_HTML_과제/DAY_2_과제/CH_11-19_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_HTML_과제/DAY_2_과제/CH_11-19_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_과제/DAY_1_과제/CH_4_tesk.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_과제/DAY_1_과제/CH_4_tesk.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_과제/DAY_2_과제/CH_5-8_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_과제/DAY_2_과제/CH_5-8_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_과제/DAY_3_과제/CH_9-13_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_과제/DAY_3_과제/CH_9-13_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_과제/DAY_4_과제/CH_14-16_과제.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_과제/DAY_4_과제/CH_14-16_과제.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_과제/DAY_5_과제/CH_17_20_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_과제/DAY_5_과제/CH_17_20_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_과제/DAY_6_과제/CH_21_32_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_과제/DAY_6_과제/CH_21_32_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_과제/DAY_7_과제/CH_33-41_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_과제/DAY_7_과제/CH_33-41_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OZ_CODING_과제/DAY_8_과제/CH_42_47_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_과제/DAY_8_과제/CH_42_47_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +108,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kochanyeol"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kochanyeol&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kochanyeol/github-actions.git",
-    "accountId": "f526dd60-98e5-40b7-851c-7d3938f05ed4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kochanyeol/kochanyeol.git&quot;,
+    &quot;accountId&quot;: &quot;f526dd60-98e5-40b7-851c-7d3938f05ed4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -56,7 +135,9 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asgi.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
     &quot;Python.temp.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_simple.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -65,17 +146,107 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VIP/Desktop/PROJECT/OZ_CODING_FASTAPI_과제&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/새 스크래치 파일&quot;: [
+      &quot;Python&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제\수업_내용\DAY1\실습1" />
       <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FLASK_과제\DAY_5_과제\FLASK_JWT" />
       <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제\DAY_1_과제" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.asgi">
+    <configuration name="asgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PROJECT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/asgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PROJECT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습1/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PROJECT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.asgi" />
+        <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,31 +269,17 @@
       <workItem from="1771301859729" duration="2521000" />
       <workItem from="1771304874181" duration="10232000" />
       <workItem from="1771326691688" duration="5470000" />
-      <workItem from="1771463279006" duration="23366000" />
-    </task>
-    <task id="LOCAL-00010" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770876937254</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1770876937254</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770877237028</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1770877237028</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770877293886</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1770877293886</updated>
+      <workItem from="1771463279006" duration="26746000" />
+      <workItem from="1771559998762" duration="15267000" />
+      <workItem from="1771576772384" duration="51000" />
+      <workItem from="1771576878369" duration="151000" />
+      <workItem from="1771577139610" duration="5786000" />
+      <workItem from="1771729695441" duration="13873000" />
+      <workItem from="1771759843587" duration="729000" />
+      <workItem from="1771760660728" duration="429000" />
+      <workItem from="1771761117780" duration="305000" />
+      <workItem from="1771761628670" duration="9000" />
+      <workItem from="1771761647851" duration="211000" />
     </task>
     <task id="LOCAL-00013" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -492,16 +649,38 @@
       <option name="project" value="LOCAL" />
       <updated>1771490861378</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="FASTAPI DAY2 TEST">
+      <option name="closed" value="true" />
+      <created>1771490895070</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1771490895070</updated>
+    </task>
+    <task id="LOCAL-00060" summary="FASTAPI DAY2 TEST">
+      <option name="closed" value="true" />
+      <created>1771490906052</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1771490906052</updated>
+    </task>
+    <task id="LOCAL-00061" summary="FASTAPI DAY2 TEST">
+      <option name="closed" value="true" />
+      <created>1771491217246</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1771491217246</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DATABASE DAY1 TEST" />
-    <MESSAGE value="DATABASE DAY2 TEST" />
-    <MESSAGE value="DATABASE DAY3 TEST" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="DATABASE DAY4 TEST" />
     <MESSAGE value="HTML DAY1 TEST" />
     <MESSAGE value="HTML DAY2 TEST" />
@@ -519,12 +698,15 @@
     <MESSAGE value="FLASK DAY1 TEST" />
     <MESSAGE value="FLASK DAY2 TEST" />
     <MESSAGE value="FLASK DAY3 TEST" />
-    <MESSAGE value="FLASK DAY4 TEST" />
     <MESSAGE value="FLASK DAY5 TEST" />
     <MESSAGE value="introduce CI" />
     <MESSAGE value="update" />
     <MESSAGE value="FASTAPI DAY2 TEST" />
-    <option name="LAST_COMMIT_MESSAGE" value="FASTAPI DAY2 TEST" />
+    <MESSAGE value="FASTAPI DAY1 TEST" />
+    <MESSAGE value="FASTAPI DAY3TEST" />
+    <MESSAGE value="FASTAPI DAY3 TEST" />
+    <MESSAGE value="FLASK DAY4 TEST" />
+    <option name="LAST_COMMIT_MESSAGE" value="FLASK DAY4 TEST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -537,9 +719,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PROJECT$main.coverage" NAME="main 커버리지 결과" MODIFIED="1770869550865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PROJECT$main.coverage" NAME="main 커버리지 결과" MODIFIED="1771561567745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습1" />
     <SUITE FILE_PATH="coverage/PROJECT$test_simple.coverage" NAME="test_simple 커버리지 결과" MODIFIED="1770870580378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PROJECT$app.coverage" NAME="app 커버리지 결과" MODIFIED="1771408946480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3" />
+    <SUITE FILE_PATH="coverage/PROJECT$scratch.coverage" NAME="scratch 커버리지 결과" MODIFIED="1771730592698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/PROJECT$temp.coverage" NAME="temp 커버리지 결과" MODIFIED="1770885780869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제" />
+    <SUITE FILE_PATH="coverage/PROJECT$asgi.coverage" NAME="asgi 커버리지 결과" MODIFIED="1771758983859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제" />
   </component>
 </project>
