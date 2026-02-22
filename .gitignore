@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경
+.venv/
+venv/
+
+# 테스트 커버리지
+.coverage
+htmlcov/
+
+# PyCharm 설정
+.idea/
+
+# github-actions 폴더
+github-actions/
