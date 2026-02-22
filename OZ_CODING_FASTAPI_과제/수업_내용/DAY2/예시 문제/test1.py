@@ -5,7 +5,7 @@
 # Cart 모델
 # 필드: user_id (정수), products (여러 개의 Product 객체 → List 사용), total_amount (소수, 0 이상)
 # /cart/ 로 POST 요청을 받아 장바구니 데이터를 생성하는 API 작성
-# 최소 1개의 상품을 포함하는 요청 JSON 작성
+# 최소 1개의 상품을 포함하는 요청 JSON 작성.
 
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
