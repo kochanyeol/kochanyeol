@@ -1,6 +1,5 @@
 from temp import add
 
-
 def test_add() -> None:
     # Given
     a, b = 1, 1

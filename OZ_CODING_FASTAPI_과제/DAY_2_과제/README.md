@@ -1,4 +1,4 @@
-# DAY 2 과제 정리
+# DAY 2 과제 정리 
 
 ## 1. Shell Script
 
