@@ -1,5 +1,4 @@
 from datetime import datetime, timedelta
-
 # 배송일을 상수로 표현하여 이해하기 쉽게 정의
 DELIVERY_DAYS = 2
 
