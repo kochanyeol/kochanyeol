@@ -2,7 +2,6 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
-
 # 사용자 데이터를 저장하는 리스트
 users = [
     {"username": "leo", "posts": [{"title": "Town House", "likes": 120}]},

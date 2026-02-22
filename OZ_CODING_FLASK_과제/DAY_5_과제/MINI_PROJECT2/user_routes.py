@@ -25,4 +25,4 @@ def register_routes(app):
 
     @app.route("/users/<string:username>", methods=["DELETE"])
     def delete(username):
-        return delete_user(username)
+        return delete_user(username

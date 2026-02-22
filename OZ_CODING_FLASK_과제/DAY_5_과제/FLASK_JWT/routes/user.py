@@ -26,7 +26,6 @@ def login():
     else:
         return render_template('login.html')
 
-
 @user_bp.route('/protected', methods=['GET'])
 @jwt_required()
 def protected():

@@ -8,7 +8,6 @@ users = [
     {"username": "photographer", "name": "Sam"},
     {"username": "gourmet", "name": "Chris"}
 ]
-
 @app.route('/')
 def index():
     # 사용자 목록을 보여주는 루트 뷰

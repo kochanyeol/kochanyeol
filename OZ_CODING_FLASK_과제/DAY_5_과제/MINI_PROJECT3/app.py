@@ -5,7 +5,6 @@ from flask_smorest import Api
 from db import db
 from flask_migrate import Migrate
 
-
 app = Flask(__name__)
 
 # 데이터베이스 및 JWT 설정
