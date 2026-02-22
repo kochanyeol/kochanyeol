@@ -103,3 +103,4 @@ def create_team(team: Team):
 
 @app.get("/products/{product_id}")
 def get_product(product_id: int):
+    pass
