@@ -200,7 +200,7 @@
       <workItem from="1771761628670" duration="9000" />
       <workItem from="1771761647851" duration="211000" />
       <workItem from="1771761935226" duration="2378000" />
-      <workItem from="1771764347966" duration="22000" />
+      <workItem from="1771764347966" duration="353000" />
     </task>
     <task id="LOCAL-00013" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -601,7 +601,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="DATABASE DAY4 TEST" />
     <MESSAGE value="HTML DAY1 TEST" />
     <MESSAGE value="HTML DAY2 TEST" />
