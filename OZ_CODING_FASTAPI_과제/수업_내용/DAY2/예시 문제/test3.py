@@ -6,7 +6,10 @@
 # 필드: title(str), author(str), price(float), is_available(bool, 기본값: True)
 
 from fastapi import FastAPI
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
+from typing import List
+import asyncio
+import uuid
 
 app = FastAPI()
 
@@ -102,5 +105,74 @@ def create_team(team: Team):
 # show_detail이 True면 {"product_id": id, "detail": "상세정보"} 반환
 
 @app.get("/products/{product_id}")
-def get_product(product_id: int):
-    pass
+def get_product(product_id: int, show_detail: bool = False):
+    if show_detail:
+        return {"product_id": product_id, "detail": "상세정보"}
+    return {"product_id": product_id}
+
+""" 7번 문제"""
+
+# 7. field_validator 기초
+# Score 모델을 정의하고 /scores/ POST API를 만드세요.
+#
+# 필드: name(str), score(int)
+# score는 0~100 사이만 허용 (field_validator 사용)
+
+class Score(BaseModel):
+    name: str
+    score: int
+
+    @field_validator("score")
+    @classmethod
+    def check_score(cls, v):
+        if not 0 <= v <= 100:
+            raise ValueError("Score must be between 0 and 100")
+        return v
+
+@app.post("/scores/")
+def create_scores(scores: Score):
+    return scores
+
+""" 8번 문제"""
+
+# 8. 선택적 필드
+# Profile 모델을 정의하고 /profiles/ POST API를 만드세요.
+#
+# 필드: username(str), bio(str, 기본값: 빈 문자열), website(str | None, 기본값: None)
+
+class Profile(BaseModel):
+    username: str
+    bio: str = ""
+    website: str | None = None
+
+@app.post("/profiles/")
+def create_profile(profile: Profile):
+    return profile
+
+""" 9번 문제"""
+
+# 9. 비동기 처리
+# /async-hello/ GET API를 만드세요.
+#
+# 3초 지연 후 {"message": "Hello, Async World!"} 반환 (asyncio 사용)
+
+@app.get("/async-hello/")
+async def async_hello():
+    await asyncio.sleep(3)
+    return {"message": "Hello, Async World!"}
+
+""" 10번 문제"""
+
+# 10. 기본 UUID
+# Item 모델을 정의하고 /items/ POST API를 만드세요.
+#
+# 필드: item_id(str, UUID 자동 생성), name(str), quantity(int, 1 이상)
+
+class Item(BaseModel):
+    item_id: str = Field(default_factory=lambda:str(uuid.uuid4())) # lambda는 간단한 함수로 def를 사용한 함수보다 가볍고 재사용가능
+    name: str
+    quantity: int = Field(gt=0) # (ge=1)
+
+@app.post("/items/")
+def create_items(item: Item):
+    return item
