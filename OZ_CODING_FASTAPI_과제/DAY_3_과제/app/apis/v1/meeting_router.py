@@ -19,5 +19,6 @@ async def api_create_meeting_edgedb() -> CreateMeetingResponse:
     "",
     description="meeting 을 생성합니다.",
 )
+
 async def api_create_meeting_mysql() -> CreateMeetingResponse:
     return CreateMeetingResponse(url_code="abc")
