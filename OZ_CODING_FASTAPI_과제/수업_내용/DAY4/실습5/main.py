@@ -1,6 +1,5 @@
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from typing import List
-jinja2
 app = FastAPI()
 
 class ConnectionManager:
