@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="update">
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test5.py" afterDir="false" />
+    <list default="true" id="72b6050c-5de9-4b88-9ef3-7ce2f808fa67" name="변경" comment="수업 내용">
+      <change afterPath="$PROJECT_DIR$/OZ_CODING_과제/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PROJECT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PROJECT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/app/dtos/create_meeting_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/app/dtos/create_meeting_response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/예시 문제/test3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -37,9 +35,10 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="39Y9q0ZF0VyFIcz6eTeXub1a4pk" />
+  <component name="ProjectId" id="3A9Rf6Sc8bl7gxVkOAQT4BpZlYW" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -50,124 +49,23 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.asgi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_simple.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/VIP/Desktop/PROJECT/OZ_CODING_FASTAPI_과제&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VIP/Desktop/p&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;DotEnv.SettingsForm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
-    ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/새 스크래치 파일&quot;: [
-      &quot;Python&quot;
-    ]
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제\수업_내용\DAY1\실습1" />
-      <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FLASK_과제\DAY_5_과제\FLASK_JWT" />
-      <recent name="C:\Users\VIP\Desktop\PROJECT\OZ_CODING_FASTAPI_과제\DAY_1_과제" />
+      <recent name="C:\Users\VIP\Desktop\p\OZ_CODING_DJANGO_과제\VOD 강의" />
     </key>
-  </component>
-  <component name="RunManager" selected="Python.asgi">
-    <configuration name="asgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PROJECT" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제/asgi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PROJECT" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습1/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PROJECT" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.asgi" />
-        <item itemvalue="Python.scratch" />
-        <item itemvalue="Python.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -179,474 +77,68 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="839a03b8-5f4b-451a-b7c6-9b98b624c4be" name="변경" comment="" />
-      <created>1770862323253</created>
+      <changelist id="72b6050c-5de9-4b88-9ef3-7ce2f808fa67" name="변경" comment="" />
+      <created>1772002902833</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1770862323253</updated>
-      <workItem from="1770862324256" duration="22960000" />
-      <workItem from="1771297407943" duration="2890000" />
-      <workItem from="1771300491108" duration="592000" />
-      <workItem from="1771301859729" duration="2521000" />
-      <workItem from="1771304874181" duration="10232000" />
-      <workItem from="1771326691688" duration="5470000" />
-      <workItem from="1771463279006" duration="26746000" />
-      <workItem from="1771559998762" duration="15267000" />
-      <workItem from="1771576772384" duration="51000" />
-      <workItem from="1771576878369" duration="151000" />
-      <workItem from="1771577139610" duration="5786000" />
-      <workItem from="1771729695441" duration="13873000" />
-      <workItem from="1771759843587" duration="729000" />
-      <workItem from="1771760660728" duration="429000" />
-      <workItem from="1771761117780" duration="305000" />
-      <workItem from="1771761628670" duration="9000" />
-      <workItem from="1771761647851" duration="211000" />
-      <workItem from="1771761935226" duration="2378000" />
-      <workItem from="1771764347966" duration="2811000" />
-      <workItem from="1771767210402" duration="13672000" />
+      <updated>1772002902833</updated>
+      <workItem from="1772002904899" duration="48000" />
+      <workItem from="1772002974334" duration="1848000" />
+      <workItem from="1772004842426" duration="20304000" />
+      <workItem from="1772076306845" duration="631000" />
+      <workItem from="1772608544402" duration="754000" />
+      <workItem from="1773019517545" duration="923000" />
+      <workItem from="1773110347917" duration="2686000" />
+      <workItem from="1773118313212" duration="123000" />
+      <workItem from="1773623095186" duration="568000" />
+      <workItem from="1773623744901" duration="4390000" />
+      <workItem from="1773629086586" duration="114000" />
     </task>
-    <task id="LOCAL-00013" summary="Initial Commit">
+    <task id="LOCAL-00001" summary="수업 내용">
       <option name="closed" value="true" />
-      <created>1770878293791</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+      <created>1772002997085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1770878293791</updated>
+      <updated>1772002997085</updated>
     </task>
-    <task id="LOCAL-00014" summary="Initial Commit">
+    <task id="LOCAL-00002" summary="수업 내용">
       <option name="closed" value="true" />
-      <created>1770878964782</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+      <created>1772003044498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1770878964782</updated>
+      <updated>1772003044498</updated>
     </task>
-    <task id="LOCAL-00015" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1770879084797</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1770879084797</updated>
-    </task>
-    <task id="LOCAL-00016" summary="난이도 하">
-      <option name="closed" value="true" />
-      <created>1770880528373</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1770880528373</updated>
-    </task>
-    <task id="LOCAL-00017" summary="FAST API LEVEL-Eazy">
-      <option name="closed" value="true" />
-      <created>1770880940898</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1770880940898</updated>
-    </task>
-    <task id="LOCAL-00018" summary="FAST API LEVEL-Eazy">
-      <option name="closed" value="true" />
-      <created>1770885296743</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1770885296743</updated>
-    </task>
-    <task id="LOCAL-00019" summary="update">
-      <option name="closed" value="true" />
-      <created>1771298341783</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1771298341783</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update">
-      <option name="closed" value="true" />
-      <created>1771298757880</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1771298757880</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update">
-      <option name="closed" value="true" />
-      <created>1771311402011</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1771311402011</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update">
-      <option name="closed" value="true" />
-      <created>1771311512153</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1771311512153</updated>
-    </task>
-    <task id="LOCAL-00023" summary="ADMIN DAY1 TEST">
-      <option name="closed" value="true" />
-      <created>1771325128562</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325128562</updated>
-    </task>
-    <task id="LOCAL-00024" summary="CSS DAY1 TEST">
-      <option name="closed" value="true" />
-      <created>1771325208114</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325208114</updated>
-    </task>
-    <task id="LOCAL-00025" summary="CSS DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771325232165</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325232165</updated>
-    </task>
-    <task id="LOCAL-00026" summary="DATABASE DAY1 TEST">
-      <option name="closed" value="true" />
-      <created>1771325371822</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325371822</updated>
-    </task>
-    <task id="LOCAL-00027" summary="DATABASE DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771325397068</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325397068</updated>
-    </task>
-    <task id="LOCAL-00028" summary="DATABASE DAY3 TEST">
-      <option name="closed" value="true" />
-      <created>1771325414554</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325414554</updated>
-    </task>
-    <task id="LOCAL-00029" summary="DATABASE DAY4 TEST">
-      <option name="closed" value="true" />
-      <created>1771325532143</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325532143</updated>
-    </task>
-    <task id="LOCAL-00030" summary="DATABASE DAY4 TEST">
-      <option name="closed" value="true" />
-      <created>1771325546529</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325546529</updated>
-    </task>
-    <task id="LOCAL-00031" summary="HTML DAY1 TEST">
-      <option name="closed" value="true" />
-      <created>1771325615918</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325615918</updated>
-    </task>
-    <task id="LOCAL-00032" summary="HTML DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771325631225</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325631225</updated>
-    </task>
-    <task id="LOCAL-00033" summary="JAVASCRIPT DAY1 TEST">
-      <option name="closed" value="true" />
-      <created>1771325687865</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325687865</updated>
-    </task>
-    <task id="LOCAL-00034" summary="JAVASCRIPT DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771325701939</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325701939</updated>
-    </task>
-    <task id="LOCAL-00035" summary="JAVASCRIPT DAY3 TEST">
-      <option name="closed" value="true" />
-      <created>1771325726727</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325726727</updated>
-    </task>
-    <task id="LOCAL-00036" summary="OZCODING DAY1 TEST">
-      <option name="closed" value="true" />
-      <created>1771325866344</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325866344</updated>
-    </task>
-    <task id="LOCAL-00037" summary="OZCODING DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771325870754</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325870754</updated>
-    </task>
-    <task id="LOCAL-00038" summary="OZCODING DAY3 TEST">
-      <option name="closed" value="true" />
-      <created>1771325875570</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325875570</updated>
-    </task>
-    <task id="LOCAL-00039" summary="OZCODING DAY4 TEST">
-      <option name="closed" value="true" />
-      <created>1771325880286</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325880286</updated>
-    </task>
-    <task id="LOCAL-00040" summary="OZCODING DAY5 TEST">
-      <option name="closed" value="true" />
-      <created>1771325884839</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325884839</updated>
-    </task>
-    <task id="LOCAL-00041" summary="OZCODING DAY6 TEST">
-      <option name="closed" value="true" />
-      <created>1771325890558</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325890558</updated>
-    </task>
-    <task id="LOCAL-00042" summary="OZCODING DAY7 TEST">
-      <option name="closed" value="true" />
-      <created>1771325895313</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325895313</updated>
-    </task>
-    <task id="LOCAL-00043" summary="OZCODING DAY8 TEST">
-      <option name="closed" value="true" />
-      <created>1771325899951</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1771325899951</updated>
-    </task>
-    <task id="LOCAL-00044" summary="FLASK DAY1 TEST">
-      <option name="closed" value="true" />
-      <created>1771327397076</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1771327397076</updated>
-    </task>
-    <task id="LOCAL-00045" summary="FLASK DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771327528000</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1771327528000</updated>
-    </task>
-    <task id="LOCAL-00046" summary="FLASK DAY5 TEST">
-      <option name="closed" value="true" />
-      <created>1771327561846</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1771327561846</updated>
-    </task>
-    <task id="LOCAL-00047" summary="FLASK DAY5 TEST">
-      <option name="closed" value="true" />
-      <created>1771327570383</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1771327570383</updated>
-    </task>
-    <task id="LOCAL-00048" summary="FLASK DAY3 TEST">
-      <option name="closed" value="true" />
-      <created>1771327626506</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1771327626506</updated>
-    </task>
-    <task id="LOCAL-00049" summary="FLASK DAY4 TEST">
-      <option name="closed" value="true" />
-      <created>1771327678137</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1771327678137</updated>
-    </task>
-    <task id="LOCAL-00050" summary="FLASK DAY5 TEST">
-      <option name="closed" value="true" />
-      <created>1771408311993</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1771408311994</updated>
-    </task>
-    <task id="LOCAL-00051" summary="FLASK DAY5 TEST">
-      <option name="closed" value="true" />
-      <created>1771413026627</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1771413026627</updated>
-    </task>
-    <task id="LOCAL-00052" summary="introduce CI">
-      <option name="closed" value="true" />
-      <created>1771468475684</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1771468475685</updated>
-    </task>
-    <task id="LOCAL-00053" summary="FASTAPI DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771468562135</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1771468562135</updated>
-    </task>
-    <task id="LOCAL-00054" summary="update">
-      <option name="closed" value="true" />
-      <created>1771471094873</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1771471094873</updated>
-    </task>
-    <task id="LOCAL-00055" summary="FASTAPI DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771490257375</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1771490257375</updated>
-    </task>
-    <task id="LOCAL-00056" summary="FASTAPI DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771490344902</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1771490344902</updated>
-    </task>
-    <task id="LOCAL-00057" summary="FASTAPI DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771490422643</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1771490422643</updated>
-    </task>
-    <task id="LOCAL-00058" summary="FASTAPI DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771490861378</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1771490861378</updated>
-    </task>
-    <task id="LOCAL-00059" summary="FASTAPI DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771490895070</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1771490895070</updated>
-    </task>
-    <task id="LOCAL-00060" summary="FASTAPI DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771490906052</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1771490906052</updated>
-    </task>
-    <task id="LOCAL-00061" summary="FASTAPI DAY2 TEST">
-      <option name="closed" value="true" />
-      <created>1771491217246</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1771491217246</updated>
-    </task>
-    <option name="localTasksCounter" value="62" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DATABASE DAY4 TEST" />
-    <MESSAGE value="HTML DAY1 TEST" />
-    <MESSAGE value="HTML DAY2 TEST" />
-    <MESSAGE value="JAVASCRIPT DAY1 TEST" />
-    <MESSAGE value="JAVASCRIPT DAY2 TEST" />
-    <MESSAGE value="JAVASCRIPT DAY3 TEST" />
-    <MESSAGE value="OZCODING DAY1 TEST" />
-    <MESSAGE value="OZCODING DAY2 TEST" />
-    <MESSAGE value="OZCODING DAY3 TEST" />
-    <MESSAGE value="OZCODING DAY4 TEST" />
-    <MESSAGE value="OZCODING DAY5 TEST" />
-    <MESSAGE value="OZCODING DAY6 TEST" />
-    <MESSAGE value="OZCODING DAY7 TEST" />
-    <MESSAGE value="OZCODING DAY8 TEST" />
-    <MESSAGE value="FLASK DAY1 TEST" />
-    <MESSAGE value="FLASK DAY2 TEST" />
-    <MESSAGE value="FLASK DAY3 TEST" />
-    <MESSAGE value="FLASK DAY5 TEST" />
-    <MESSAGE value="introduce CI" />
-    <MESSAGE value="FASTAPI DAY2 TEST" />
-    <MESSAGE value="FASTAPI DAY1 TEST" />
-    <MESSAGE value="FASTAPI DAY3TEST" />
-    <MESSAGE value="FASTAPI DAY3 TEST" />
-    <MESSAGE value="FLASK DAY4 TEST" />
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="수업 내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="수업 내용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_2_과제/app.py</url>
+          <url>file://$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY5/MINI_PROJECT/models.py</url>
+          <line>5</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY3/실습2/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY5/MINI_PROJECT/auth.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PROJECT$main.coverage" NAME="main 커버리지 결과" MODIFIED="1771561567745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/수업_내용/DAY2/실습1" />
-    <SUITE FILE_PATH="coverage/PROJECT$test_simple.coverage" NAME="test_simple 커버리지 결과" MODIFIED="1770870580378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PROJECT$app.coverage" NAME="app 커버리지 결과" MODIFIED="1771408946480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OZ_CODING_FLASK_과제/DAY_5_과제/MINI_PROJECT3" />
-    <SUITE FILE_PATH="coverage/PROJECT$scratch.coverage" NAME="scratch 커버리지 결과" MODIFIED="1771730592698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/PROJECT$temp.coverage" NAME="temp 커버리지 결과" MODIFIED="1770885780869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_2_과제" />
-    <SUITE FILE_PATH="coverage/PROJECT$asgi.coverage" NAME="asgi 커버리지 결과" MODIFIED="1771758983859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OZ_CODING_FASTAPI_과제/DAY_3_과제" />
   </component>
 </project>
