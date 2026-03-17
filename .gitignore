@@ -20,3 +20,5 @@ github-actions/
 .env
 # Flask instance
 instance/
+README.md
+desktop.ini
