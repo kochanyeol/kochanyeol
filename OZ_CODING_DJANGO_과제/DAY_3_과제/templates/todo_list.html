@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+</head>
+<body>
+    <nav>
+        {% if request.user.is_authenticated %}
+            <span>{{ request.user.username }}</span>
+            <form action="{% url 'logout' %}" method="POST">
+                {% csrf_token %}
+                <button type="submit">Logout</button>
+            </form>
+        {% else %}
+            <a href="{% url 'signup' %}">SignUp</a>
+            <a href="{% url 'login' %}">Login</a>
+        {% endif %}
+    </nav>
+    <div>
+        {% if request.user.is_authenticated %}
+            <h1>{{ request.user.username }}의 Todo List</h1>
+            <ul>
+                {% for todo in data %}
+                    <li><a href="{% url 'todo_info' todo.id %}">{{ todo.title }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <h1>회원가입 또는 로그인을 진행해주세요.</h1>
+        {% endif %}
+    </div>
+</body>
+</html>
