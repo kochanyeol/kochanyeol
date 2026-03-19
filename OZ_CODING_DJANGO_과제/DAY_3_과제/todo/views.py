@@ -3,9 +3,8 @@ from django.http import Http404
 from todo.models import Todo
 
 def todo_list(request):
-    todo_list = Todo.objects.all().values_list('id', 'title')
-    result = [{'id': todo[0], 'title': todo[1]} for i, todo in enumerate(todo_list)]
-    return render(request, 'todo_list.html', {'data': result})
+    todo_list = Todo.objects.all()
+    return render(request, 'todo_list.html', {'data': todo_list})
 
 def todo_info(request, todo_id):
     try:
