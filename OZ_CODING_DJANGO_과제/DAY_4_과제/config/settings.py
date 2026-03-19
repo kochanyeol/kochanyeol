@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 OWN_APPS = [
     'todo',
+    'accounts',
 ]
 
 DJANGO_APPS = [
@@ -123,5 +124,5 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # 로그인
-LOGIN_URL = '...'
+LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '...'
