@@ -22,3 +22,6 @@ github-actions/
 instance/
 README.md
 desktop.ini
+
+.claude
+.vscode
