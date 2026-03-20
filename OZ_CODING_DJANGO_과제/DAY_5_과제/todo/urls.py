@@ -16,7 +16,7 @@ TodoUpdateView,
 urlpatterns = [
     path('todo/', TodoListView.as_view(), name='cbv_todo_list'),
     path('todo/create/', TodoCreateView.as_view(), name='cbv_todo_create'),
-    path('todo/<int:pk>/update/', TodoUpdateView.as_view(), name='cbv_todo_update'),
-    path('todo/<int:pk>/delete/', TodoDeleteView.as_view(), name='cbv_todo_delete'),
-    path('todo/<int:pk>/', TodoDetailView.as_view(), name='cbv_todo_detail')
+    path('todo/<int:id>/update/', TodoUpdateView.as_view(), name='cbv_todo_update'),
+    path('todo/<int:id>/delete/', TodoDeleteView.as_view(), name='cbv_todo_delete'),
+    path('todo/<int:id>/', TodoDetailView.as_view(), name='cbv_todo_detail')
 ]

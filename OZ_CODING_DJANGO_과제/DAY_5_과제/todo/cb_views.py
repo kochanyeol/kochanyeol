@@ -54,7 +54,7 @@ class TodoDetailView(LoginRequiredMixin, DetailView):
     # 장고가 자동으로 호출하고, 결과를 self.object에 저장해둠
     def get_object(self, queryset=...):
         # URL의 pk로 todo를 가져옴. 없으면 자동으로 404 반환
-        todo = get_object_or_404(Todo, pk=self.kwargs['pk'])
+        todo = get_object_or_404(Todo, pk=self.kwargs['id'])
         # 관리자이거나 본인의 todo면 반환, 아니면 404
         if self.request.user.is_superuser or todo.user == self.request.user:
             return todo
@@ -92,7 +92,7 @@ class TodoUpdateView(LoginRequiredMixin, UpdateView):
     template_name = 'todo/todo_update.html'
 
     def get_object(self, queryset = ...):
-        todo = get_object_or_404(Todo, pk=self.kwargs['pk'])
+        todo = get_object_or_404(Todo, pk=self.kwargs['id'])
         if self.request.user.is_superuser or todo.user == self.request.user:
             return todo
         raise Http404
@@ -105,7 +105,7 @@ class TodoDeleteView(LoginRequiredMixin, DeleteView):
     template_name = 'todo/todo_delete.html'
 
     def get_object(self, queryset = ...):
-        todo = get_object_or_404(Todo, pk=self.kwargs['pk'])
+        todo = get_object_or_404(Todo, pk=self.kwargs['id'])
         if self.request.user.is_superuser or todo.user == self.request.user:
             return todo
         raise Http404
