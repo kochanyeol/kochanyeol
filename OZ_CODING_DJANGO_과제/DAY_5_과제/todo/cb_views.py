@@ -84,7 +84,7 @@ class TodoCreateView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
     def get_success_url(self):
-        return reverse_lazy('cbv_todo_detail', kwargs={'pk': self.object.pk})
+        return reverse_lazy('cbv_todo_detail', kwargs={'id': self.object.pk})
 
 class TodoUpdateView(LoginRequiredMixin, UpdateView):
     model = Todo
@@ -98,7 +98,7 @@ class TodoUpdateView(LoginRequiredMixin, UpdateView):
         raise Http404
 
     def get_success_url(self):
-        return reverse_lazy('cbv_todo_detail', kwargs={'pk':self.object.pk})
+        return reverse_lazy('cbv_todo_detail', kwargs={'id':self.object.pk})
 
 class TodoDeleteView(LoginRequiredMixin, DeleteView):
     model = Todo
