@@ -1,6 +1,3 @@
-from django.shortcuts import render
-
-from django.conf import settings # settings에서 가져오면 추후 이름이 변경되면 찾기 어려움
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.contrib.auth import login as django_login, logout as django_logout
 from django.shortcuts import render, redirect
@@ -20,8 +17,9 @@ def login(request):
     return render(request, 'accounts/login.html', {'form': form})
 
 def logout(request):
-    django_logout(request)
-    return redirect(reverse('login'))
+    if request.method == 'POST':
+        django_logout(request)
+        return redirect(reverse('login'))
 
 def signup(request):
     if request.method == 'POST':

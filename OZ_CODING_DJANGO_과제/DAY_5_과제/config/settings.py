@@ -125,3 +125,6 @@ STATIC_URL = 'static/'
 
 # 로그인
 LOGIN_REDIRECT_URL = '/cbv/todo/'
+
+# 장고에게 "기본 User 모델 대신 우리가 만든 accounts.User를 써" 라고 알려주는 설정
+AUTH_USER_MODEL = 'accounts.User'
