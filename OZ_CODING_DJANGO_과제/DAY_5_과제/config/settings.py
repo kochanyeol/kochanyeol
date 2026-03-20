@@ -123,6 +123,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# 사용자가 업로드한 파일(이미지 등)이 저장될 경로 설정
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # 로그인
 LOGIN_REDIRECT_URL = '/cbv/todo/'
 
