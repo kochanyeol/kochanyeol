@@ -3,13 +3,14 @@ from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator
 from .models import Todo
 from .forms import TodoForm, TodoUpdateForm
+from django.db.models import Q
 
 @login_required
 def todo_list(request):
     q = request.GET.get('q', '')
     todos = Todo.objects.filter(user=request.user)
     if q:
-        todos = todos.filter(title__icontains=q) | todos.filter(description__icontains=q)
+        todos = todos.filter(Q(title__icontains=q) | Q(description__icontains=q))
     paginator = Paginator(todos, 5)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
@@ -19,7 +20,7 @@ def todo_list(request):
 @login_required  # 로그인 안 된 유저는 로그인 페이지로 자동 redirect(django 기능)
 def todo_info(request, pk):
     # url에서 넘어온 todo_id로 Todo 객체를 가져오고 없으면 404 반환
-    todo = get_object_or_404(Todo, pk=pk)
+    todo = get_object_or_404(Todo, pk=pk, user=request.user)
     context = {
         # todo 객체의 필드들을 딕셔너리 형태로 변환해서 전달
         'todo': todo.__dict__

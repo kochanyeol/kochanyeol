@@ -13,10 +13,5 @@ class TodoForm(forms.ModelForm):
 
 # Todo 수정 폼 - TodoForm을 상속받아 is_completed(완료 여부) 필드 추가
 class TodoUpdateForm(TodoForm):
-    class Meta:
-        model = Todo
-        fields = ['title', 'description', 'start_date', 'end_date', 'is_completed']
-
-        # fields를 상속받아서 사용하기
-        # class Meta(TodoForm.Meta):
-        #     fields = TodoForm.Meta.fields + ['is_completed']
+    class Meta(TodoForm.Meta):
+        fields = TodoForm.Meta.fields + ['is_completed']
