@@ -117,6 +117,7 @@ class CommentCreateView(LoginRequiredMixin, CreateView):
 class CommentUpdateView(LoginRequiredMixin, UpdateView):
     model = Comment
     fields = ['message']
+    template_name = 'todo/todo_info.html'
 
     def get_object(self, queryset=...):
         comment = get_object_or_404(Comment, pk=self.kwargs['id'])
