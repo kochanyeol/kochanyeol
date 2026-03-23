@@ -69,7 +69,9 @@ class TodoDetailView(LoginRequiredMixin, DetailView):
         # context['todo']: 장고가 자동으로 넣어준 todo객체를 __dict__로 변환해서 덮어씀
         # __dict__: 객체의 모든 필드를 딕셔너리로 변환 {'id':1, 'title':'공부', ...}
         # 결과적으로 context 안에 딕셔너리 안에 딕셔너리가 담김
-        context['todo'] = self.get_object().__dict__
+
+        # context['todo'] = self.get.object().__dict__ - 피드백 db 종복 조회 중
+        context['todo'] = self.object.__dict__
         return context
 
 class TodoCreateView(LoginRequiredMixin, CreateView):
