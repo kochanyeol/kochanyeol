@@ -28,7 +28,7 @@
     <hr>
     <form method="POST" action="{% url 'comment_create' todo.id %}" class="d-flex justify-content-evenly align-items-center mb-3">
         {% csrf_token %}
-        {{ form.as_p }}
+        {{ comment_form.as_p }}
         <button class="btn btn-primary">댓글달기</button>
     </form>
     <ul class="list-unstyled" id="comment_wrapper">
@@ -51,7 +51,7 @@
                 <p class="text-end text-muted small">{{ comment.created_at }}</p>
                 <form id="comment_modify_form_{{ comment.id }}" style="display: none;" method="POST" action="{% url 'comment_update' comment.id %}">
                     {% csrf_token %}
-                    {{ form.as_p }}
+                    {{ comment_form.as_p }}
                     <button class="btn btn-primary btn-sm">수정하기</button>
                 </form>
             </li>

@@ -27,12 +27,12 @@ class TodoListView(LoginRequiredMixin, ListView):
         return queryset
 
 class TodoDetailView(LoginRequiredMixin, DetailView):
-    model = Todo
     template_name = 'todo/todo_info.html'
+    queryset = Todo.objects.prefetch_related('comments', 'comments__user')
 
-    def get_object(self, queryset=...):
+    def get_object(self, queryset=None):
         # prefetch_related: 댓글을 미리 한 번에 가져와서 DB 쿼리 횟수를 줄임
-        todo = get_object_or_404(Todo.objects.prefetch_related('comments'), pk=self.kwargs['id'])
+        todo = get_object_or_404(self.queryset, pk=self.kwargs['id'])
         if self.request.user.is_superuser or todo.user == self.request.user:
             return todo
         raise Http404
@@ -45,7 +45,7 @@ class TodoDetailView(LoginRequiredMixin, DetailView):
         context['todo'] = self.object.__dict__
         # 6일차 과제 수정 사항
         # 빈 댓글 입력 폼을(forms.py에 이미 만들어 둠) 템플릿에 넘겨서 사용자가 댓글 쓸 수 있게.
-        context['form'] = CommentForm()
+        context['comment_form'] = CommentForm()
 
         # prefetch_related: todo에 달린 댓글을 미리 한 번에 가져옴 (DB 쿼리 최적화)
         # filter로 매번 DB 조회하는 대신 이미 가져온 댓글을 재사용
@@ -77,7 +77,7 @@ class TodoUpdateView(LoginRequiredMixin, UpdateView):
     fields = ['title', 'description', 'start_date', 'end_date']
     template_name = 'todo/todo_update.html'
 
-    def get_object(self, queryset=...):
+    def get_object(self, queryset=None):
         todo = get_object_or_404(Todo, pk=self.kwargs['id'])
         if self.request.user.is_superuser or todo.user == self.request.user:
             return todo
@@ -90,7 +90,7 @@ class TodoDeleteView(LoginRequiredMixin, DeleteView):
     model = Todo
     template_name = 'todo/todo_delete.html'
 
-    def get_object(self, queryset=...):
+    def get_object(self, queryset=None):
         todo = get_object_or_404(Todo, pk=self.kwargs['id'])
         if self.request.user.is_superuser or todo.user == self.request.user:
             return todo
@@ -119,7 +119,7 @@ class CommentUpdateView(LoginRequiredMixin, UpdateView):
     fields = ['message']
     template_name = 'todo/todo_info.html'
 
-    def get_object(self, queryset=...):
+    def get_object(self, queryset=None):
         comment = get_object_or_404(Comment, pk=self.kwargs['id'])
         if self.request.user.is_superuser or comment.user == self.request.user:
             return comment
@@ -131,7 +131,7 @@ class CommentUpdateView(LoginRequiredMixin, UpdateView):
 class CommentDeleteView(LoginRequiredMixin, DeleteView):
     model = Comment
 
-    def get_object(self, queryset=...):
+    def get_object(self, queryset=None):
         comment = get_object_or_404(Comment, pk=self.kwargs['id'])
         if self.request.user.is_superuser or comment.user == self.request.user:
             return comment
