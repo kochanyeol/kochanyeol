@@ -27,7 +27,6 @@ class UserManager(BaseUserManager):
     def create_user(self, email, password=None, *args, **kwargs):
     # 일반 유저 생성
     # 회원가입할 때 호출
-    # 키워드 인자만 주로 받기에 *args를 사용할 경우가 거의 없지만 요구사항과 확장상을 고려해 작성
         email = self.normalize_email(email)
         # 이메일을 정규화해주기
         user = self.model(email=email, *args ,**kwargs)
