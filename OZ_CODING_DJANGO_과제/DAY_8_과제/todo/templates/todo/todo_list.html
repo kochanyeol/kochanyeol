@@ -1,0 +1,37 @@
+{% extends 'todo/base.html' %}
+{% block content %}
+<div class="container mt-5">
+    {% if request.user.is_authenticated %}
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        {% if not request.user.is_staff %}
+            <h1>{{ request.user.username }}'s Todo List</h1>
+        {% else %}
+            <h1>All To Do List (By. Admin)</h1>
+        {% endif %}
+        <button class="btn btn-success" onclick="location.href='{% url 'cbv_todo_create' %}'">생성하기</button>
+    </div>
+    <form method="GET" class="mb-3">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="제목 또는 내용을 입력하세요." name="q" value="{% if request.GET.q %}{{ request.GET.q }}{% endif %}">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+    </form>
+    <div class="list-group mb-3">
+        {% for todo in page_obj.object_list %}
+            {% if todo.is_completed %}
+                <div class="list-group-item list-group-item-action d-flex align-items-center gap-3">
+                    <img class="img-thumbnail" src="{{ todo.thumbnail.url }}" alt="썸네일이미지" style="width: 100px; height: 100px; object-fit: contain;">
+                    <a class="text-decoration-none text-black" href="{% url 'cbv_todo_detail' todo.id %}">[{{ todo.user.username }}] {{ todo.title }} <span class="badge bg-success">Completed</span></a>
+                </div>
+            {% else %}
+                <div class="list-group-item list-group-item-action d-flex align-items-center gap-3">
+                    <img class="img-thumbnail" src="{{ todo.thumbnail.url }}" alt="썸네일이미지" style="width: 100px; height: 100px; object-fit: contain;">
+                    <a class="text-decoration-none text-black" href="{% url 'cbv_todo_detail' todo.id %}">[{{ todo.user.username }}] {{ todo.title }}</a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% include 'todo/pagination.html' %}
+    {% endif %}
+</div>
+{% endblock %}

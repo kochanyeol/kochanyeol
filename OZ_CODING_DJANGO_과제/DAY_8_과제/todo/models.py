@@ -1,0 +1,62 @@
+from pathlib import Path
+from django.core.files.base import ContentFile
+from django.db import models
+from django.conf import settings
+from PIL import Image
+from io import BytesIO
+
+# 모델은 db테이블 구조를 정의하고 db와 직접 소통하는 역할
+# 뷰가 명령하면 모델은 db에서 꺼내와서 뷰에게 반환해준다.
+# models.Model를 상속받는 순간부터 뷰에서 장고의 내장기능인 orm을 쓸 수 있다.
+# 추가로 db생성, crud를 자동으로 처리해준다.
+
+class Todo(models.Model):
+    # settings.AUTH_USER_MODEL: 직접 User 모델을 import 하는 대신 설정값으로 참조
+    # AUTH_USER_MODEL이 바뀌어도 이 코드는 수정 안 해도 됨
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    title = models.CharField(max_length=50)
+    description = models.TextField()
+    start_date = models.DateField()
+    end_date = models.DateField()
+    is_completed = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    completed_image = models.ImageField(upload_to='todo/completed/', null=True, blank=True)
+    thumbnail = models.ImageField(upload_to='todo/thumbnails/', null=True, blank=True, default='todo/thumbnails/default.jpg')
+
+    def save(self, *args, **kwargs):
+        if self.completed_image:
+
+            img = Image.open(self.completed_image)
+            img.thumbnail((300, 300))
+            path = Path(self.completed_image.name)
+            name = path.stem
+            ext = path.suffix
+            thumbnail_name = f'preview_{name}{ext}'
+
+            if ext.lower() in ['.jpg', '.jpeg']:
+                file_type = 'JPEG'
+            elif ext.lower() == '.png':
+                file_type = 'PNG'
+            elif ext.lower() == '.gif':
+                file_type = 'GIF'
+            else:
+                return
+
+            output = BytesIO()
+            img.save(output, format=file_type)
+            output.seek(0)
+            self.thumbnail.save(thumbnail_name, ContentFile(output.read()), save=False)
+            output.close()
+
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.title
+
+class Comment(models.Model):
+    todo = models.ForeignKey(Todo, on_delete=models.CASCADE, related_name='comments')
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='comments')
+    message = models.TextField(max_length=200)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
