@@ -135,6 +135,7 @@ AUTH_USER_MODEL = 'accounts.User'
 
 # summernote
 SUMMERNOTE_CONFIG = {
+    'iframe': True,
     'summernote': {
         'toolbar': [
             ['style', ['style']],
@@ -142,7 +143,7 @@ SUMMERNOTE_CONFIG = {
             ['color', ['color']],
             ['para', ['ul', 'ol', 'paragraph']],
             ['table', ['table']],
-            ['view', ['fullscreen', 'codeview', 'help']],
+            ['view', ['fullscreen', 'help']],
         ],
     }
 }

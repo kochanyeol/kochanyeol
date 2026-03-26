@@ -24,5 +24,6 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
     path('cbv/', include('todo.urls')),
     path('accounts/', include('accounts.urls')),
+    path('users/', include('users.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # 개발 환경에서 이미지파일을 브라우저에 접근할 수 있게 도와주는 설정(배포X)

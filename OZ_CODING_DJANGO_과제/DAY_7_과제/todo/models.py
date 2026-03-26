@@ -38,6 +38,10 @@ class Todo(models.Model):
                 file_type = 'JPEG'
             elif ext.lower() == '.png':
                 file_type = 'PNG'
+            elif ext.lower() == '.gif':
+                file_type = 'GIF'
+            else:
+                return
 
             output = BytesIO()
             img.save(output, format=file_type)

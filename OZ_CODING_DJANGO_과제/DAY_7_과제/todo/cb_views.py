@@ -24,7 +24,7 @@ class TodoListView(LoginRequiredMixin, ListView):
         q = self.request.GET.get('q')
         if q:
             queryset = queryset.filter(Q(title__icontains=q) | Q(description__icontains=q))
-        return queryset
+        return queryset.order_by('-created_at')
 
 class TodoDetailView(LoginRequiredMixin, DetailView):
     template_name = 'todo/todo_info.html'
@@ -42,7 +42,7 @@ class TodoDetailView(LoginRequiredMixin, DetailView):
     # self.object - 장고가 정한 고정 변수명(DetailView가 가져온 todo 객체)
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['todo'] = self.object.__dict__
+        context['todo'] = self.object
         # 6일차 과제 수정 사항
         # 빈 댓글 입력 폼을(forms.py에 이미 만들어 둠) 템플릿에 넘겨서 사용자가 댓글 쓸 수 있게.
         context['comment_form'] = CommentForm()
@@ -64,9 +64,7 @@ class TodoCreateView(LoginRequiredMixin, CreateView):
     template_name = 'todo/todo_form.html'
 
     def form_valid(self, form):
-        todo = form.save(commit=False)
-        todo.user = self.request.user
-        todo.save()
+        form.instance.user = self.request.user
         return super().form_valid(form)
 
     def get_success_url(self):
