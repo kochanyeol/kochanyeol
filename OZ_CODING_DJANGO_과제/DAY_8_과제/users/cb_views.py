@@ -20,11 +20,17 @@ class SignupView(CreateView):
 class LoginView(FormView):
     form_class = LoginForm
     template_name = 'registration/login.html'
+    success_url = reverse_lazy('cbv_todo_list') # 장고 고정변수
+
+    def get_form_kwargs(self):
+        kwargs = super().get_form_kwargs()
+        kwargs['request'] = self.request
+        return kwargs
 
     def form_valid(self, form):
         user = form.get_user()
         login(self.request, user)
-        return redirect(reverse_lazy('cbv_todo_list'))
+        return super().form_valid(form)
 
 def verify_email(request):
     code = request.GET.get('code')

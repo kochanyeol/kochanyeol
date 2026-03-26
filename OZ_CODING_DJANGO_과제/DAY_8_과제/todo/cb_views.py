@@ -27,11 +27,13 @@ class TodoListView(LoginRequiredMixin, ListView):
 
 class TodoDetailView(LoginRequiredMixin, DetailView):
     template_name = 'todo/todo_info.html'
-    queryset = Todo.objects.prefetch_related('comments', 'comments__user')
+
+    def get_queryset(self):
+        return Todo.objects.prefetch_related('comments', 'comments__user')
 
     def get_object(self, queryset=None):
         # prefetch_related: 댓글을 미리 한 번에 가져와서 DB 쿼리 횟수를 줄임
-        todo = get_object_or_404(self.queryset, pk=self.kwargs['id'])
+        todo = get_object_or_404(self.get_queryset(), pk=self.kwargs['id'])
         if self.request.user.is_superuser or todo.user == self.request.user:
             return todo
         raise Http404
@@ -99,7 +101,6 @@ class TodoDeleteView(LoginRequiredMixin, DeleteView):
 class CommentCreateView(LoginRequiredMixin, CreateView):
     model = Comment
     fields = ['message']
-    pk_url_kwarg = 'todo_id'
 
     def form_valid(self, form):
         form.instance.user = self.request.user
