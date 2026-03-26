@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 import json
 from pathlib import Path
 
-with open('.secret_config/secret.json') as f:
+with open(Path(__file__).resolve().parent / '.secret_config/secret.json') as f:
     secret = json.load(f)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
