@@ -30,4 +30,6 @@ vod강의/
 개인공부/
 .secret_config/
 
-secret.json
+secret.json.python-version
+poetry.lock
+pyproject.toml
